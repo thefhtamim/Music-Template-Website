@@ -3,6 +3,8 @@ var tlMiddleSection = new TimelineMax();
 var tlSecondMiddleSection = new TimelineMax();
 var tlThirdMiddleSection = new TimelineMax();
 
+var controller = new ScrollMagic.Controller();
+
 tlHomeSection
     .from(".textChild", 1, {
         ease: Bounce.easeOut,
@@ -44,8 +46,6 @@ tlMiddleSection
     });
 
 // scroll magic middleSection
-var controller = new ScrollMagic.Controller();
-
 const sceneMiddleSection = new ScrollMagic.Scene({
     triggerElement: ".middleSection",
     duration: "65%",
