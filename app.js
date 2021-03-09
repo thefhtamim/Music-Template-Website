@@ -1,6 +1,7 @@
 var tlHomeSection = new TimelineMax();
 var tlMiddleSection = new TimelineMax();
 var tlSecondMiddleSection = new TimelineMax();
+var tlThirdMiddleSection = new TimelineMax();
 
 tlHomeSection
     .from(".textChild", 1, {
@@ -83,6 +84,33 @@ const sceneSecondMiddleSection = new ScrollMagic.Scene({
         colorTrigger: "white",
         colorStart: "white",
         colorEnd: "white",
+    })
+    .addTo(controller);
+
+//thirdMiddleSection scroll magic
+
+tlThirdMiddleSection
+    .from(".iphone", {
+        ease: Expo.easeOut,
+        xPercent: 30,
+    })
+    .from(".downloadInfoElem", {
+        stagger: 0.7,
+        x: 100,
+        opacity: 0,
+    });
+
+const sceneThirdMiddleSection = new ScrollMagic.Scene({
+    triggerElement: ".middleThirdSection",
+    duration: "100%",
+    triggerHook: 1,
+})
+    .setTween(tlThirdMiddleSection)
+    .addIndicators({
+        name: "Box Timeline",
+        colorTrigger: "purple",
+        colorStart: "green",
+        colorEnd: "red",
     })
     .addTo(controller);
 

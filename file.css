@@ -627,7 +627,6 @@ body::-webkit-scrollbar {
 .middleThirdSection {
   width: 100%;
   height: 80vh;
-  background-color: #032135;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,14 +653,70 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#3498d5), color-stop(#358cd6), color-stop(#457ed5), color-stop(#5b6fcf), to(#715dc5));
-  background-image: linear-gradient(to right bottom, #3498d5, #358cd6, #457ed5, #5b6fcf, #715dc5);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3498d5), color-stop(#348fd6), color-stop(#3d85d6), color-stop(#4b7bd4), color-stop(#5b6fcf), color-stop(#6067cb), color-stop(#655ec6), color-stop(#6a55c0), color-stop(#654fbc), color-stop(#604ab9), color-stop(#5a44b5), to(#553fb1));
+  background-image: linear-gradient(to right, #3498d5, #348fd6, #3d85d6, #4b7bd4, #5b6fcf, #6067cb, #655ec6, #6a55c0, #654fbc, #604ab9, #5a44b5, #553fb1);
 }
 
 .middleThirdSection .downloadCard .downloadInfo {
   width: 60%;
   height: 100%;
+  padding: 20px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.middleThirdSection .downloadCard .downloadInfo .buttons {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middleThirdSection .downloadCard .downloadInfo .buttons button {
+  display: block;
+  width: 150px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+}
+
+.middleThirdSection .downloadCard .downloadInfo .buttons button img {
+  width: 100%;
+}
+
+.middleThirdSection .downloadCard .downloadInfo .buttons button #googleBadge {
+  height: 75px;
+  width: 200px;
 }
 
 .iphone {
@@ -741,7 +796,6 @@ body::-webkit-scrollbar {
   border: 2px solid rgba(0, 0, 0, 0.9);
   border-radius: 3px;
   overflow: hidden;
-  background-image: url("https://assets.codepen.io/285131/paintbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
