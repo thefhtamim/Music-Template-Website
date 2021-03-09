@@ -90,7 +90,7 @@ body::-webkit-scrollbar {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #032135;
+  color: #b7e2ff;
 }
 
 .initialSection .header .menu li {
@@ -110,7 +110,7 @@ body::-webkit-scrollbar {
 }
 
 .initialSection .header .menu li a {
-  color: #0e0828;
+  color: #b7e2ff;
 }
 
 .initialSection .header .menu li:first-child {
@@ -183,6 +183,8 @@ body::-webkit-scrollbar {
   height: 150px;
   border-radius: 20px;
   margin-right: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   background-image: -webkit-gradient(linear, left top, right top, from(#3498d5), color-stop(#358cd6), color-stop(#457ed5), color-stop(#5b6fcf), to(#715dc5));
@@ -242,6 +244,8 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   border: 1px solid #6e6aff;
   margin: 0 30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .initialSection .container .card .baixo div img {
@@ -256,6 +260,7 @@ body::-webkit-scrollbar {
 .initialSection .container .card .baixo div svg {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 .initialSection .container .text {
@@ -277,7 +282,7 @@ body::-webkit-scrollbar {
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 3.2rem;
-  color: #032135;
+  color: #b7e2ff;
 }
 
 .initialSection .container .text p {
@@ -285,6 +290,7 @@ body::-webkit-scrollbar {
   width: 300px;
   line-height: 1.7;
   opacity: 0.6;
+  color: #b7e2ff;
 }
 
 .initialSection .container .text .textChild:last-child {
@@ -301,6 +307,8 @@ body::-webkit-scrollbar {
   border: none;
   color: white;
   cursor: pointer;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-weight: bolder;
   border-radius: 5px;
   background-image: -webkit-gradient(linear, left top, right top, from(#3498d5), color-stop(#358cd6), color-stop(#457ed5), color-stop(#5b6fcf), to(#715dc5));
@@ -311,7 +319,8 @@ body::-webkit-scrollbar {
   display: block;
   width: 200px;
   color: #3498d5;
-  background-image: unset;
+  background-image: initial;
+  background-color: #0b051e;
   border: 2px solid #3498d5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,6 +332,8 @@ body::-webkit-scrollbar {
       -ms-flex-align: center;
           align-items: center;
   background-color: transparent;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .initialSection .footer {
@@ -364,6 +375,8 @@ body::-webkit-scrollbar {
   height: 75vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#160e39), color-stop(#140d36), color-stop(#120d34), color-stop(#110b31), color-stop(#100a2e), color-stop(#0f092b), color-stop(#0e0828), color-stop(#0d0725), color-stop(#0c0621), color-stop(#0b051e), color-stop(#09051a), to(#070416));
   background-image: linear-gradient(to bottom, #160e39, #140d36, #120d34, #110b31, #100a2e, #0f092b, #0e0828, #0d0725, #0c0621, #0b051e, #09051a, #070416);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-bottom-left-radius: 40px;
 }
 
@@ -400,6 +413,8 @@ body::-webkit-scrollbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .middleSection .appsCard .appCard {
@@ -449,6 +464,8 @@ body::-webkit-scrollbar {
 
 .middleSection .middleText button {
   display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -544,6 +561,8 @@ body::-webkit-scrollbar {
   padding: 35px;
   -webkit-transition: 0.3s all ease-out;
   transition: 0.3s all ease-out;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .secondMiddleSection .dlBox:nth-child(3) {
@@ -595,6 +614,8 @@ body::-webkit-scrollbar {
   top: 50%;
   background-color: transparent;
   border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   z-index: 1;
   -webkit-animation: orbit 40s linear infinite;
           animation: orbit 40s linear infinite;
@@ -609,6 +630,8 @@ body::-webkit-scrollbar {
   bottom: 0;
   background-color: transparent;
   border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   z-index: 1;
   -webkit-animation: orbit 40s linear infinite;
           animation: orbit 40s linear infinite;
@@ -643,6 +666,8 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform-origin: left;
+          transform-origin: left;
   background-image: -webkit-gradient(linear, left top, right top, from(#3498d5), color-stop(#348fd6), color-stop(#3d85d6), color-stop(#4b7bd4), color-stop(#5b6fcf), color-stop(#6067cb), color-stop(#655ec6), color-stop(#6a55c0), color-stop(#654fbc), color-stop(#604ab9), color-stop(#5a44b5), to(#553fb1));
   background-image: linear-gradient(to right, #3498d5, #348fd6, #3d85d6, #4b7bd4, #5b6fcf, #6067cb, #655ec6, #6a55c0, #654fbc, #604ab9, #5a44b5, #553fb1);
 }
@@ -702,11 +727,13 @@ body::-webkit-scrollbar {
 
 .middleThirdSection .downloadCard .downloadInfo .buttons button img {
   width: 100%;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .middleThirdSection .downloadCard .downloadInfo .buttons button #googleBadge {
-  height: 75px;
-  width: 200px;
+  height: 50px;
+  width: 160px;
 }
 
 .iphone {
@@ -792,6 +819,35 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 12.5%;
   background-color: #070416;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.iphone-screen .layer:hover {
+  background-color: #0d0725;
+}
+
+.iphone-screen .layer div h3 {
+  color: #cfcfcf;
+}
+
+.iphone-screen .layer div p {
+  color: #909090;
+}
+
+.iphone-screen .layer img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .buttons .on-off,

@@ -62,7 +62,7 @@ tlSecondMiddleSection
     // })
     .from(".fadeup", {
         ease: Expo.easeOut,
-        stagger: 0.25,
+        stagger: 0.7,
         duration: 3,
         yPercent: 125,
     });
@@ -77,30 +77,26 @@ const sceneSecondMiddleSection = new ScrollMagic.Scene({
 
 //thirdMiddleSection scroll magic
 tlThirdMiddleSection
+    .from(".downloadCard", {
+        x: "130%",
+        duration: 1,
+    })
     .from(".iphone", {
         ease: Bounce.easeOut,
         xPercent: 250,
-        duration: 4,
+        duration: 1,
     })
     .from(".downloadInfoElem", {
-        stagger: 0.7,
+        stagger: 0.3,
         x: 100,
         opacity: 0,
     });
 
 const sceneThirdMiddleSection = new ScrollMagic.Scene({
     triggerElement: ".downloadCard",
-    duration: 100,
-    offset: -200,
-    triggerHook: 0,
+    duration: 225,
 })
     .setTween(tlThirdMiddleSection)
-    .addIndicators({
-        name: "Box Timeline",
-        colorTrigger: "purple",
-        colorStart: "green",
-        colorEnd: "red",
-    })
     .addTo(controller);
 
 //rellax

@@ -76,7 +76,7 @@ body {
                 text-transform: uppercase;
                 font-weight: bolder;
 
-                color: #032135;
+                color: #b7e2ff;
             }
         }
 
@@ -93,7 +93,7 @@ body {
                 margin: 0 15px;
 
                 a {
-                    color: #0e0828;
+                    color: #b7e2ff;
                 }
 
                 &:first-child {
@@ -168,6 +168,7 @@ body {
             border-radius: 20px;
 
             margin-right: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
             transform-style: preserve-3d;
 
@@ -218,6 +219,9 @@ body {
                     border: 1px solid #6e6aff;
                     margin: 0 30px;
 
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+                        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
                     img {
                         height: 35px;
                         width: 200px;
@@ -228,6 +232,8 @@ body {
                     svg {
                         width: 35px;
                         height: 35px;
+
+                        cursor: pointer;
                     }
                 }
             }
@@ -245,7 +251,7 @@ body {
                 letter-spacing: 1px;
                 font-weight: 500;
                 font-size: 3.2rem;
-                color: #032135;
+                color: #b7e2ff;
             }
 
             p {
@@ -253,6 +259,7 @@ body {
                 width: 300px;
                 line-height: 1.7;
                 opacity: 0.6;
+                color: #b7e2ff;
             }
 
             .textChild {
@@ -271,6 +278,7 @@ body {
                 color: white;
 
                 cursor: pointer;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
                 font-weight: bolder;
                 border-radius: 5px;
@@ -289,13 +297,17 @@ body {
                     width: 200px;
                     color: #3498d5;
 
-                    background-image: unset;
+                    background-image: initial;
+                    background-color: #0b051e;
                     border: 2px solid #3498d5;
                     display: flex;
 
                     justify-content: space-evenly;
                     align-items: center;
                     background-color: transparent;
+
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+                        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
                 }
             }
         }
@@ -347,6 +359,7 @@ body {
             #070416
         );
 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-bottom-left-radius: 40px;
     }
 }
@@ -369,9 +382,13 @@ body {
 
         background-color: white;
         display: flex;
+
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+            rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
         .appCard {
             width: 80%;
@@ -413,6 +430,8 @@ body {
 
         button {
             display: block;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
             display: flex;
             justify-content: space-evenly;
@@ -511,6 +530,8 @@ body {
         padding: 35px;
 
         transition: 0.3s all ease-out;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+            rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
         &:nth-child(3) {
             position: absolute;
@@ -581,6 +602,9 @@ body {
 
         background-color: transparent;
         border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+            rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+            rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
         z-index: 1;
 
@@ -599,6 +623,9 @@ body {
 
         background-color: transparent;
         border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+            rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+            rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
         z-index: 1;
 
@@ -625,6 +652,8 @@ body {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
+        transform-origin: left;
 
         background-image: linear-gradient(
             to right,
@@ -679,11 +708,15 @@ body {
 
                     img {
                         width: 100%;
+
+                        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+                            rgba(17, 17, 26, 0.1) 0px 8px 24px,
+                            rgba(17, 17, 26, 0.1) 0px 16px 56px;
                     }
 
                     #googleBadge {
-                        height: 75px;
-                        width: 200px;
+                        height: 50px;
+                        width: 160px;
                     }
                 }
             }
@@ -777,6 +810,35 @@ body {
         height: 12.5%;
 
         background-color: #070416;
+        color: white;
+
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0d0725;
+        }
+
+        div {
+            h3 {
+                color: #cfcfcf;
+            }
+
+            p {
+                color: #909090;
+            }
+        }
+
+        img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+
+            margin: 0 15px;
+            object-fit: cover;
+        }
     }
 }
 
