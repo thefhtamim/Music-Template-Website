@@ -568,8 +568,8 @@ body::-webkit-scrollbar {
 .secondMiddleSection .dlBox:nth-child(3) {
   position: absolute;
   width: 275px;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#3498d5), color-stop(#358cd6), color-stop(#457ed5), color-stop(#5b6fcf), to(#715dc5));
-  background-image: linear-gradient(to right bottom, #3498d5, #358cd6, #457ed5, #5b6fcf, #715dc5);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#3498d5), color-stop(#308fd6), color-stop(#3585d5), color-stop(#417ad3), color-stop(#506fcf), color-stop(#5567cb), color-stop(#5b5fc6), color-stop(#6156c1), color-stop(#5e50bd), color-stop(#5b4bb9), color-stop(#5845b5), to(#553fb1));
+  background-image: linear-gradient(to right bottom, #3498d5, #308fd6, #3585d5, #417ad3, #506fcf, #5567cb, #5b5fc6, #6156c1, #5e50bd, #5b4bb9, #5845b5, #553fb1);
   right: 20%;
   bottom: 5%;
 }

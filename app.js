@@ -62,15 +62,15 @@ tlSecondMiddleSection
     // })
     .from(".fadeup", {
         ease: Expo.easeOut,
-        stagger: 0.7,
-        duration: 3,
-        yPercent: 125,
+        stagger: 1,
+        duration: 1.5,
+        yPercent: 50,
     });
 
 const sceneSecondMiddleSection = new ScrollMagic.Scene({
     triggerElement: ".secondMiddleSection",
-    duration: "50%",
-    triggerHook: 0.25,
+    duration: "20px",
+    // offset: "-10%",
 })
     .setTween(tlSecondMiddleSection)
     .addTo(controller);
