@@ -32,7 +32,9 @@
 body {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  height: 400vh;
   overflow-x: hidden;
+  background-color: #0b051e;
 }
 
 body::-webkit-scrollbar {
@@ -482,19 +484,7 @@ body::-webkit-scrollbar {
 
 .middleSection .aboveSliders .sliders {
   width: 100%;
-  height: 33.3%;
-  position: absolute;
-  background-color: #6e6aff;
-}
-
-.middleSection .aboveSliders .sliders:nth-child(2) {
-  top: 33.3%;
-  background-color: #6e6aff;
-}
-
-.middleSection .aboveSliders .sliders:last-child {
-  height: 33.4%;
-  top: 66.5%;
+  height: 19.9%;
   background-color: #6e6aff;
 }
 
@@ -796,12 +786,12 @@ body::-webkit-scrollbar {
   border: 2px solid rgba(0, 0, 0, 0.9);
   border-radius: 3px;
   overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.iphone-screen img {
+.iphone-screen .layer {
   width: 100%;
+  height: 12.5%;
+  background-color: #070416;
 }
 
 .buttons .on-off,

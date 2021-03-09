@@ -52,25 +52,19 @@ const sceneMiddleSection = new ScrollMagic.Scene({
     triggerHook: 0.25,
 })
     .setTween(tlMiddleSection)
-    .addIndicators({
-        name: "Box Timeline",
-        colorTrigger: "white",
-        colorStart: "white",
-        colorEnd: "white",
-    })
     .addTo(controller);
 
 //scroll magic second middle section
 tlSecondMiddleSection
-    .from(".secondMiddleSection", {
-        xPercent: -100,
-        duration: 0.7,
-    })
+    // .from(".secondMiddleSection", {
+    //     xPercent: -100,
+    //     duration: 0.7,
+    // })
     .from(".fadeup", {
         ease: Expo.easeOut,
         stagger: 0.25,
         duration: 3,
-        yPercent: 100,
+        yPercent: 125,
     });
 
 const sceneSecondMiddleSection = new ScrollMagic.Scene({
@@ -79,20 +73,14 @@ const sceneSecondMiddleSection = new ScrollMagic.Scene({
     triggerHook: 0.25,
 })
     .setTween(tlSecondMiddleSection)
-    .addIndicators({
-        name: "Box Timeline",
-        colorTrigger: "white",
-        colorStart: "white",
-        colorEnd: "white",
-    })
     .addTo(controller);
 
 //thirdMiddleSection scroll magic
-
 tlThirdMiddleSection
     .from(".iphone", {
-        ease: Expo.easeOut,
-        xPercent: 30,
+        ease: Bounce.easeOut,
+        xPercent: 250,
+        duration: 4,
     })
     .from(".downloadInfoElem", {
         stagger: 0.7,
@@ -101,9 +89,10 @@ tlThirdMiddleSection
     });
 
 const sceneThirdMiddleSection = new ScrollMagic.Scene({
-    triggerElement: ".middleThirdSection",
-    duration: "100%",
-    triggerHook: 1,
+    triggerElement: ".downloadCard",
+    duration: 100,
+    offset: -200,
+    triggerHook: 0,
 })
     .setTween(tlThirdMiddleSection)
     .addIndicators({
