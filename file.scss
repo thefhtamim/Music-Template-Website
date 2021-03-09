@@ -80,7 +80,7 @@ body {
         .menu {
             li {
                 display: block;
-                width: 70px;
+                width: 75px;
                 height: 45px;
 
                 display: flex;
@@ -90,11 +90,15 @@ body {
                 margin: 0 15px;
 
                 a {
-                    color: #080700;
+                    color: #0e0828;
                 }
 
                 &:first-child {
                     margin-left: 185px;
+                }
+
+                &:nth-child(2) {
+                    width: 85px;
                 }
 
                 &:nth-child(3) {

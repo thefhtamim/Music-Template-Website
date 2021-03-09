@@ -93,7 +93,7 @@ body::-webkit-scrollbar {
 
 .initialSection .header .menu li {
   display: block;
-  width: 70px;
+  width: 75px;
   height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,11 +108,15 @@ body::-webkit-scrollbar {
 }
 
 .initialSection .header .menu li a {
-  color: #080700;
+  color: #0e0828;
 }
 
 .initialSection .header .menu li:first-child {
   margin-left: 185px;
+}
+
+.initialSection .header .menu li:nth-child(2) {
+  width: 85px;
 }
 
 .initialSection .header .menu li:nth-child(3) a {
