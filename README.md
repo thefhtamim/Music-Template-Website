@@ -8,7 +8,7 @@
 -   Cool design
 -   Lite
 
-#### Preview
+## Preview
 ### Interface
 
 -   ##### Screenshots
