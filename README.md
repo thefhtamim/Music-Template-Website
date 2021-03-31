@@ -7,11 +7,10 @@
 -   Cool Animations
 -   Cool design
 -   Lite
-
-## Preview
+-   
 ### Interface
 
--   ##### Screenshots
+-   ##### Preview
 
 ![](/Gif/capture.png)
 
