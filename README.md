@@ -7,7 +7,6 @@
 -   Cool Animations
 -   Cool design
 -   Lite
--   
 ### Interface
 
 -   ##### Preview
